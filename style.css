@@ -1,0 +1,44 @@
+/* 1. styling overall*/
+
+.nav-tabs .nav-link.active {
+    color: #EB1C22; 
+}
+
+.nav-tabs .nav-link {
+    color: #1E409A;
+}
+
+/* 2. styling index*/
+
+
+/* 3. styling EFAS*/
+.CV-EFAS {
+    text-align: center;
+    margin: 60px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+
+/* 4. styling services*/
+.text_services {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color:#1E409A;
+}
+
+ul.services {
+    list-style: none; /* Remove default bullets */
+    margin-left: 40px;
+  }
+  
+  ul li.item_services::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+/* 5. styling contact details*/
