@@ -8,17 +8,32 @@
     color: #1E409A;
 }
 
-/* 2. styling index*/
+body {
+    font-family: ;
+}
 
+/* 2. styling index*/
+.logo {
+    margin-left: 30%;
+    margin-top: 10%;
+}
 
 /* 3. styling EFAS*/
 .CV-EFAS {
     text-align: center;
-    margin: 60px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
     line-height: 25px;
     font-size: 16px;
 }
 
+.profilepicture {
+    height: 40%;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 3%;
+}
 
 /* 4. styling services*/
 .text_services {
