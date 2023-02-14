@@ -1,0 +1,133 @@
+/* 1. styling overall*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  line-height: 3rem;
+  letter-spacing: 1px;
+}
+
+ul.navigation-tabs {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #d4e0f6;
+  width: 100%;
+  top: 0;
+}
+
+li a {
+  display: block;
+  color: #1f3c97;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1f3c97;
+  color: white;
+}
+
+a.active {
+  background-color: #1f3c97;
+  color: white;
+  font-weight: bold;
+}
+
+li.navigationElement {
+  float: left;
+}
+
+footer {
+  font-size: 10px;
+  line-height: normal;
+  text-align: center;
+  background-color: #d4e0f6;
+  color: #1f3c97;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-attachment: scroll;
+}
+
+/* 2. styling index*/
+table {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+img.logoEFAS {
+  width: auto;
+  height: auto;
+}
+
+img.profilepicture {
+  height: 50rem;
+  top: 10;
+}
+
+p.homepage {
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* 3. styling EFAS*/
+h2.titleEFAS {
+  padding-top: 7%;
+  padding-left: 25%;
+  font-size: 25px;
+  color: #1e409a;
+}
+
+img.Jean-Rene {
+  display: block;
+  padding-left: 25%;
+  padding-top: 3%;
+  width: 40%;
+}
+
+p.CV-EFAS {
+  margin: 3% 30% 10% 25%;
+  line-height: 30px;
+}
+
+/* 4. styling services*/
+h2.titleServices {
+  padding: 7% 20% 3% 25%;
+  font-size: 26px;
+  color: #1e409a;
+}
+
+li.services {
+  padding-left: 25%;
+  list-style-type: circle;
+}
+
+img.spreadsheet {
+  padding-top: 5%;
+  padding-right: 10%;
+  width: 25%;
+  float: right;
+  opacity: 0.7;
+}
+
+/* 5. styling contact details*/
+h2.titleContactDetails {
+  padding: 7% 0 3% 25%;
+  font-size: 26px;
+  color: #1e409a;
+}
+
+table.contactdetails {
+  padding: 1% 20% 3% 25%;
+}
+
+img.contactPicture {
+  float: right;
+  padding-right: 10%;
+  width: 20%;
+  opacity: 0.6;
+}
