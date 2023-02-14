@@ -45,9 +45,10 @@ footer {
   text-align: center;
   background-color: #d4e0f6;
   color: #1f3c97;
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0;
+  background-attachment: scroll;
 }
 
 /* 2. styling index*/
@@ -84,11 +85,12 @@ h2.titleEFAS {
 img.Jean-Rene {
   display: block;
   padding-left: 25%;
-  padding-top: 5%;
+  padding-top: 3%;
+  width: 40%;
 }
 
 p.CV-EFAS {
-  margin: 3% 30% 0 25%;
+  margin: 3% 30% 10% 25%;
   line-height: 30px;
 }
 
